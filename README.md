@@ -9,7 +9,7 @@ I intend to create a simpler form of the Twitter Bootstrap.
  - Buttons
  - Platforms
  - Menus
- - Columns.
+ - Columns
 
 I may add more in the future.
 
