@@ -34,7 +34,7 @@ List of current Classes:
     - for divs, required for regular columns to act proper
  - .col#
     - for divs, replace # symbol with numbers from 1-16
- - .col#-fill **Not Implemented - Next**
+ - .col#-fill
     - for divs, replace # symbol with numbers from 1-16, does not require col-main
 
 ##License##
