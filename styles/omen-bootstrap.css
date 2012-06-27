@@ -183,3 +183,154 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeaeae', end
     box-shadow:2px 2px 2px 1px #999999 inset;
     padding:4px;
 }
+
+.col-main
+{
+    width:960px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.col1
+{
+    display:inline-block;
+    width:40px;
+    margin:8px;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col2
+{
+    display:inline-block;
+    width:100px;
+    margin:8px;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col3
+{
+    display:inline-block;
+    width:160px;
+    margin:8px;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col4
+{
+    display:inline-block;
+    width:220px;
+    margin:8px;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col5
+{
+    display:inline-block;
+    width:280px;
+    margin:8px;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col6
+{
+    display:inline-block;
+    width:340px;
+    margin:8px;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col7
+{
+    display:inline-block;
+    width:400px;
+    margin:8px;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col8
+{
+    display:inline-block;
+    width:460px;
+    margin:8px;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col9
+{
+    display:inline-block;
+    width:520px;
+    margin:8px;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col10
+{
+    display:inline-block;
+    width:580px;
+    margin:8px;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col11
+{
+    display:inline-block;
+    width:640px;
+    margin:8px;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col12
+{
+    display:inline-block;
+    width:700px;
+    margin:8px;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col13
+{
+    display:inline-block;
+    width:760px;
+    margin:8px;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col14
+{
+    display:inline-block;
+    width:820px;
+    margin:8px;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col15
+{
+    display:inline-block;
+    width:880px;
+    margin:8px;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col16
+{
+    display:inline-block;
+    width:940px;
+    margin:8px;
+    vertical-align:top;
+    text-align:left;
+}
