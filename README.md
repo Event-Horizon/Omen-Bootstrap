@@ -30,6 +30,12 @@ List of current Classes:
     - for divs
  - .plat .plat-inset is platform/section inset
     - for divs
+ - .col-main
+    - for divs, required for regular columns to act proper
+ - .col#
+    - for divs, replace # symbol with numbers from 1-16
+ - .col#-fill **Not Implemented - Next**
+    - for divs, replace # symbol with numbers from 1-16, does not require col-main
 
 ##License##
 
