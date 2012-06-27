@@ -104,6 +104,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a5a5a5', end
 
 }
 
+.b.b-dark:visited
+{
+    color:#0099ff;
+}
+
 .b.b-dark:hover
 {
 background: rgb(174,174,174); /* Old browsers */
