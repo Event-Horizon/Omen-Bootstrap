@@ -21,13 +21,13 @@ Included resources are JQUERY.JS (1.7.2) and BOX-SHADOW.JS.
 
 List of current Classes:
  - .b is button
- -  - for anchors
+    - for anchors
  - .b-sec is button section/group
- -  - for divs
+    - for divs
  - .plat is platform/section
- -  - for divs
+    - for divs
  - .plat .plat-inset is platform/section inset
- -  - for divs
+    - for divs
 
 ##License##
 
