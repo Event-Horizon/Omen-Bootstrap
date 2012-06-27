@@ -174,15 +174,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeaeae', end
     box-shadow:2px 2px 2px 1px #999999;
     margin:4px;
     padding:8px;
-    border-bottom:2px solid #000000;
-    box-shadow:1px 1px 0px 0px #000000,1px 1px 0px 0px #999999 inset;
+    border-bottom:2px solid #aaaaaa;
+    box-shadow:1px 1px 0px 0px #aaaaaa,1px 1px 0px 0px #999999 inset;
+    text-align:left;
 }
 
 .plat.plat-inset
 {
     box-shadow:2px 2px 2px 1px #999999 inset;
     padding:4px;
-	border-bottom:1px solid #aaaaaa;
+    border-bottom:1px solid #aaaaaa;
 }
 
 .col-main
@@ -332,6 +333,150 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeaeae', end
     display:inline-block;
     width:940px;
     margin:8px;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col1-fill
+{
+    width:6.25%;
+        display:inline-block;
+    float:left;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col2-fill
+{
+    width:12.5%;
+        display:inline-block;
+    float:left;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col3-fill
+{
+    width:18.75%;
+        display:inline-block;
+    float:left;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col4-fill
+{
+    width:25%;
+        display:inline-block;
+    float:left;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col5-fill
+{
+    width:31.25%;
+        display:inline-block;
+    float:left;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col6-fill
+{
+    width:37.5%;
+        display:inline-block;
+    float:left;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col7-fill
+{
+    width:43.75%;
+        display:inline-block;
+    float:left;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col8-fill
+{
+    width:50%;
+        display:inline-block;
+    float:left;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col9-fill
+{
+    width:56.25%;
+        display:inline-block;
+    float:left;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col10-fill
+{
+    width:62.5%;
+        display:inline-block;
+    float:left;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col11-fill
+{
+    width:68.75%;
+        display:inline-block;
+    float:left;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col12-fill
+{
+    width:75%;
+        display:inline-block;
+    float:left;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col13-fill
+{
+    width:81.25%;
+        display:inline-block;
+    float:left;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col14-fill
+{
+    width:87.5%;
+        display:inline-block;
+    float:left;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col15-fill
+{
+    width:93.75%;
+        display:inline-block;
+    float:left;
+    vertical-align:top;
+    text-align:left;
+}
+
+.col16-fill
+{
+    width:100%;
+        display:inline-block;
+    float:left;
     vertical-align:top;
     text-align:left;
 }
