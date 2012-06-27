@@ -1,0 +1,87 @@
+/* Get rid of default spacing */
+
+html,body
+{
+
+}
+
+body
+{
+padding:0;
+border:0;
+margin:0;
+}
+
+/*****************************/
+
+.b
+{
+    display:inline-block;
+    height:32px;
+    padding:12px; 
+    margin:4px;
+    line-height:32px;
+    background-color:#eeeeee;
+    border-radius:4px;
+    border:1px solid #ffffff;
+    text-decoration:none;
+    color:black;
+    font-family:"lucida consolas",monospace;
+}
+
+.b:hover
+{
+    background-color:#dfdfdf;
+}
+
+.b-sec
+{
+    display:inline-block;
+    position:relative;
+    margin:4px;
+    vertical-align:bottom;
+    overflow:hidden;
+}
+
+.b-sec > .b
+{
+    position:relative;
+    float:left;    
+    margin:0;
+    border:0;
+    border-radius:0;
+    border:1px solid #ffffff;
+    border-right:0px;
+}
+
+.b-sec > .b:first-child
+{
+    margin-left:4px;
+    border-radius:4px 0px 0px 4px;
+}
+
+.b-sec > .b:last-child
+{
+    margin-right:4px;
+    border-radius:0px 4px 4px 0px;
+    border-right:1px solid #ffffff;
+}
+
+.plat
+{
+    background-color:#cccccc;
+    border-radius:4px;
+    border-top:1px solid #ffffff;
+    border-left:1px solid #ffffff;
+    border-right:1px solid #aaaaaa;
+    border-bottom:1px solid #aaaaaa;
+    box-shadow:2px 2px 2px 1px #999999;
+    margin:4px;
+}
+
+.plat.plat-inset
+{
+    box-shadow:2px 2px 2px 1px #999999 inset;
+    padding:4px;
+}
+?
