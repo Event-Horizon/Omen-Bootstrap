@@ -22,6 +22,8 @@ Included resources are JQUERY.JS (1.7.2) and BOX-SHADOW.JS.
 List of current Classes:
  - .b is button
     - for anchors
+ - .b.b-dark is dark button
+    - for anchors
  - .b-sec is button section/group
     - for divs containing button anchors
  - .plat is platform/section
