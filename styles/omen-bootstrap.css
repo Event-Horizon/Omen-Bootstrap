@@ -182,7 +182,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeaeae', end
 {
     box-shadow:2px 2px 2px 1px #999999 inset;
     padding:4px;
-	border-bottom:1px solid #000000;
+	border-bottom:1px solid #aaaaaa;
 }
 
 .col-main
