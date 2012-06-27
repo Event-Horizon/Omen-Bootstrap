@@ -23,7 +23,7 @@ List of current Classes:
  - .b is button
     - for anchors
  - .b-sec is button section/group
-    - for divs
+    - for divs containing button anchors
  - .plat is platform/section
     - for divs
  - .plat .plat-inset is platform/section inset
