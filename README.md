@@ -49,7 +49,7 @@ List of current Classes:
        - for divs stick to top of window
     - .nav .nav-stick-bot
        - for divs stick to bottom of window
- - .dropd
+ - .dropd is dropdown menu
     - for anchor buttons
 
 ##License##
