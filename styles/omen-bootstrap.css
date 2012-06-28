@@ -133,7 +133,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeaeae', end
 {
     display:inline-block;
     position:relative;
-    vertical-align:bottom;
+    vertical-align:middle;
 }
 
 .b-sec > .b
@@ -173,7 +173,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeaeae', end
     border-bottom:1px solid #aaaaaa;
     box-shadow:2px 2px 2px 1px #999999;
     margin:4px;
-    padding:8px;
     border-bottom:2px solid #aaaaaa;
     box-shadow:1px 1px 0px 0px #aaaaaa,1px 1px 0px 0px #999999 inset;
     text-align:left;
@@ -191,13 +190,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeaeae', end
     width:960px;
     margin:0 auto;
     text-align:center;
+	overflow:hidden;
 }
 
 .col1
 {
     display:inline-block;
     width:40px;
-    margin:8px;
+    margin:4px;
     vertical-align:top;
     text-align:left;
 }
@@ -206,7 +206,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeaeae', end
 {
     display:inline-block;
     width:100px;
-    margin:8px;
+    margin:4px;
     vertical-align:top;
     text-align:left;
 }
@@ -215,7 +215,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeaeae', end
 {
     display:inline-block;
     width:160px;
-    margin:8px;
+    margin:4px;
     vertical-align:top;
     text-align:left;
 }
@@ -224,7 +224,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeaeae', end
 {
     display:inline-block;
     width:220px;
-    margin:8px;
+    margin:4px;
     vertical-align:top;
     text-align:left;
 }
@@ -233,7 +233,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeaeae', end
 {
     display:inline-block;
     width:280px;
-    margin:8px;
+    margin:4px;
     vertical-align:top;
     text-align:left;
 }
@@ -242,7 +242,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeaeae', end
 {
     display:inline-block;
     width:340px;
-    margin:8px;
+    margin:4px;
     vertical-align:top;
     text-align:left;
 }
@@ -251,7 +251,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeaeae', end
 {
     display:inline-block;
     width:400px;
-    margin:8px;
+    margin:4px;
     vertical-align:top;
     text-align:left;
 }
@@ -260,7 +260,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeaeae', end
 {
     display:inline-block;
     width:460px;
-    margin:8px;
+    margin:4px;
     vertical-align:top;
     text-align:left;
 }
@@ -269,7 +269,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeaeae', end
 {
     display:inline-block;
     width:520px;
-    margin:8px;
+    margin:4px;
     vertical-align:top;
     text-align:left;
 }
@@ -278,7 +278,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeaeae', end
 {
     display:inline-block;
     width:580px;
-    margin:8px;
+    margin:4px;
     vertical-align:top;
     text-align:left;
 }
@@ -287,7 +287,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeaeae', end
 {
     display:inline-block;
     width:640px;
-    margin:8px;
+    margin:4px;
     vertical-align:top;
     text-align:left;
 }
@@ -296,7 +296,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeaeae', end
 {
     display:inline-block;
     width:700px;
-    margin:8px;
+    margin:4px;
     vertical-align:top;
     text-align:left;
 }
@@ -305,7 +305,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeaeae', end
 {
     display:inline-block;
     width:760px;
-    margin:8px;
+    margin:4px;
     vertical-align:top;
     text-align:left;
 }
@@ -314,7 +314,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeaeae', end
 {
     display:inline-block;
     width:820px;
-    margin:8px;
+    margin:4px;
     vertical-align:top;
     text-align:left;
 }
@@ -323,7 +323,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeaeae', end
 {
     display:inline-block;
     width:880px;
-    margin:8px;
+    margin:4px;
     vertical-align:top;
     text-align:left;
 }
@@ -332,7 +332,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeaeae', end
 {
     display:inline-block;
     width:940px;
-    margin:8px;
+    margin:4px;
     vertical-align:top;
     text-align:left;
 }
@@ -479,4 +479,38 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aeaeae', end
     float:left;
     vertical-align:top;
     text-align:left;
+}
+
+.nav
+{
+display:block;
+position:relative;
+width:99.7%;
+height:48px;
+border-radius:4px;
+background-color:#000000;
+overflow:hidden;
+text-align:left;
+line-height:44px;
+border-top:1px solid #aaaaaa;
+border-left:1px solid #aaaaaa;
+border-right:1px solid #666666;
+border-bottom:1px solid #666666;
+box-shadow:0px 1px 4px 0px #000000,0px 1px 0px 0px #333333,0px 32px 32px 0px #333333 inset;
+}
+
+.nav.nav-stick-top
+{
+position:fixed;
+top:0px;
+left:0px;
+border-radius:0;
+}
+
+.nav.nav-stick-bot
+{
+position:fixed;
+bottom:0px;
+left:0px;
+border-radius:0;
 }
