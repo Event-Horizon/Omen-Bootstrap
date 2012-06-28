@@ -6,10 +6,17 @@ This is my personal Bootstrap project.
 I intend to create a simpler form of the Twitter Bootstrap. 
 
 **Planned:**
+ - Lists
+ - Icons
+
+**In Progress:**
+ - Columns
+ - Menus
+ - Nav
+
+**Complete:**
  - Buttons
  - Platforms
- - Menus
- - Columns
 
 I may add more in the future.
 
