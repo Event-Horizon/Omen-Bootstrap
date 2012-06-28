@@ -28,14 +28,22 @@ List of current Classes:
     - for divs containing button anchors
  - .plat is platform/section
     - for divs
- - .plat .plat-inset is platform/section inset
-    - for divs
+    - .plat-inset is platform/section inset
+       - for divs
  - .col-main
     - for divs, required for regular columns to act proper
- - .col#
-    - for divs, replace # symbol with numbers from 1-16
+    - .col#
+       - for divs, replace # symbol with numbers from 1-16,requires col-main
  - .col#-fill
     - for divs, replace # symbol with numbers from 1-16, does not require col-main
+ - .nav
+    - for divs
+    - .nav-stick-top
+       - for divs stick to top of window
+    - .nav-stick-bot
+       - for divs stick to bottom of window
+ - .dropd
+    - for anchor buttons
 
 ##License##
 
