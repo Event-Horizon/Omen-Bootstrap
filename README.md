@@ -1,5 +1,10 @@
 #Omen Bootstrap#
 
+##Version 0.19.0##
+
+###Versioning###
+[Major].[Minor].[Patch]
+
 ##Description##
 This is my personal Bootstrap project. 
 
