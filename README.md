@@ -32,8 +32,7 @@ Included resources are JQUERY.JS (1.7.2) and BOX-SHADOW.JS.
 List of current Classes:
  - **.b** is button
     - for anchors
-    - **.b .b-dark** is dark button
-       - for anchors
+    - **.b .b-dark**
     - **.b .b-red**
     - **.b .b-blue**
  - **.b-sec** is button section/group
@@ -41,7 +40,6 @@ List of current Classes:
  - **.plat** is platform/section
     - for divs
     - **.plat .plat-inset** is platform/section inset
-       - for divs
  - **.col-main**
     - for divs, required for regular columns to act proper
     - **.col#**
@@ -50,10 +48,8 @@ List of current Classes:
     - for divs, replace # symbol with numbers from 1-16, does not require col-main wrapper
  - **.nav**
     - for divs
-    - **.nav .nav-stick-top**
-       - for divs stick to top of window
-    - **.nav .nav-stick-bot**
-       - for divs stick to bottom of window
+    - **.nav .nav-stick-top** to stick to top of window
+    - **.nav .nav-stick-bot** to stick to bottom of window
  - **.notice**
     - for divs
     - **.notice .notice-dark**
