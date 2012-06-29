@@ -603,6 +603,7 @@ border-radius:0;
 z-index:1;
 border-left:0;
 border-right:0;
+width:100%;
 }
 
 .nav.nav-stick-bot
@@ -614,6 +615,7 @@ border-radius:0;
 z-index:1;
 border-left:0;
 border-right:0;
+width:100%;
 }
 
 .nav .title
