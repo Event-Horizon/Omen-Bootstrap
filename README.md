@@ -18,13 +18,12 @@ I intend to create a simpler form of the Twitter Bootstrap.
 **In Progress:**
  - Menus
  - Nav
+ - Columns
+ - Notices
 
 **Complete:**
  - Buttons
  - Platforms
-
-**Unrefined:**
- - Columns *Unrefined:Not currently supported.*
 
 Included resources are JQUERY.JS (1.7.2) and BOX-SHADOW.JS.
 
@@ -53,8 +52,8 @@ List of current Classes:
        - for divs stick to top of window
     - **.nav .nav-stick-bot**
        - for divs stick to bottom of window
- - **.dropd** is dropdown menu
-    - for anchor buttons
+ - **.notice**
+    - for divs
 
 ##License##
 
