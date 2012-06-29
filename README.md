@@ -13,17 +13,17 @@ I intend to create a simpler form of the Twitter Bootstrap.
 
 **Planned:**
  - Lists
- - Icons
+ - Nav
 
 **In Progress:**
- - Menus
- - Nav
- - Columns
- - Notices
+ - Fill Columns
+ - Buttons
 
 **Complete:**
- - Buttons
  - Platforms
+ - Columns
+ - Notices
+ - Navbar
 
 Included resources are JQUERY.JS (1.7.2) and BOX-SHADOW.JS.
 
