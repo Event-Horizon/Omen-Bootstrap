@@ -12,10 +12,23 @@ border:0;
 margin:0;
 }
 
+ul
+{
+padding:0;
+border:0;
+margin:0;
+}
+
+li
+{
+list-style:none;
+}
+
 /*****************************/
 .b
 {
     display:inline-block;
+	position:relative;
     height:32px;
     padding:2px 12px; 
     margin:4px;
@@ -33,6 +46,7 @@ margin:0;
     font-size:16px;
     box-shadow:0px 2px 2px 0px #aaaaaa;
     color:#999999;
+	cursor:pointer;
     
     background: rgb(255,255,255); /* Old browsers */
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -513,4 +527,36 @@ position:fixed;
 bottom:0px;
 left:0px;
 border-radius:0;
+}
+
+.dropd
+{
+position:relative;
+}
+
+.dropd li,ul
+{
+display:inline-block;
+}
+
+.dropd>li:first-of-type:after
+{
+content:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAHUlEQVQIW2NkwAEYyZL4j00XzCh0SUZkO2CSYDEAgEQDBhFGkh0AAAAASUVORK5CYII=");
+position:relative;
+top:-4px;
+right:14px;
+}
+
+.dropd>ul
+{
+display:none;
+position:absolute;
+left:6px;
+top:42px;
+background-color:#cccccc;
+}
+
+.dropd:active>ul
+{
+display:inline-block;
 }
