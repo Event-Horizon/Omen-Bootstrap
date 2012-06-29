@@ -34,6 +34,8 @@ List of current Classes:
     - for anchors
     - **.b .b-dark** is dark button
        - for anchors
+    - **.b .b-red**
+    - **.b .b-blue**
  - **.b-sec** is button section/group
     - for divs containing button anchors
  - **.plat** is platform/section
@@ -54,6 +56,10 @@ List of current Classes:
        - for divs stick to bottom of window
  - **.notice**
     - for divs
+    - **.notice .notice-dark**
+    - **.notice .notice-red**
+    - **.notice .notice-blue**
+    - **.notice .notice-green**
 
 ##License##
 
