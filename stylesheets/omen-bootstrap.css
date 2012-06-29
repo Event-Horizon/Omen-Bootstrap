@@ -25,11 +25,6 @@ li
 list-style:none;
 }
 /*****************************/
-#troubleshoot div,ul
-{
-border:1px dotted red;
-}
-
 .head1
 {
 font-size:3em;
