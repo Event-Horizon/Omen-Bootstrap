@@ -16,7 +16,6 @@ I intend to create a simpler form of the Twitter Bootstrap.
  - Icons
 
 **In Progress:**
- - Columns
  - Menus
  - Nav
 
@@ -24,9 +23,8 @@ I intend to create a simpler form of the Twitter Bootstrap.
  - Buttons
  - Platforms
 
-I may add more in the future.
-
-
+**Unrefined:**
+ - Columns *Unrefined:Not currently supported.*
 
 Included resources are JQUERY.JS (1.7.2) and BOX-SHADOW.JS.
 
