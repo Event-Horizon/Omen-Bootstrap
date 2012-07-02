@@ -46,16 +46,22 @@ List of current Classes:
        - for divs, replace # symbol with numbers from 1-16,requires col-main wrapper
  - **.col#-fill**
     - for divs, replace # symbol with numbers from 1-16, does not require col-main wrapper
- - **.nav**
+ - **.navbar**
     - for divs
-    - **.nav .nav-stick-top** to stick to top of window
-    - **.nav .nav-stick-bot** to stick to bottom of window
+    - **.navbar .navbar-stick-top** to stick to top of window
+    - **.navbar .navbar-stick-bot** to stick to bottom of window
+    - **.navbar-space** to space page for navbar
  - **.notice**
     - for divs
     - **.notice .notice-dark**
     - **.notice .notice-red**
     - **.notice .notice-blue**
     - **.notice .notice-green**
+ - **.nav** is nav
+    - for ul
+    - **.nav .nav-list** is list style navigation
+    - **.nav .nav-list .heading** is heading for nav list
+    - **.nav .nav-list .divider** is divider for nav list
 
 ##License##
 
