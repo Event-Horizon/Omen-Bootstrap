@@ -107,6 +107,7 @@ box-shadow:0px 2px 6px 0px #000000 inset;
 height:16px;
 font-size:12px;
 line-height:16px;
+padding:2px 8px;
 }
 
 .b.b-large
@@ -114,6 +115,7 @@ line-height:16px;
 height:48px;
 font-size:24px;
 line-height:48px;
+padding:2px 24px;
 }
 
 .b.b-dark
@@ -709,7 +711,7 @@ vertical-align:top;
 text-align:left;
 }
 
-.nav-top-space
+.navbar-space
 {
 padding-bottom:48px;
 }
@@ -719,7 +721,7 @@ padding-bottom:48px;
 display:block;
 position:relative;
 min-height:24px;
-max-height:56px;
+max-height:64px;
 border-radius:4px;
 background-color:#000000;
 text-align:left;
@@ -764,7 +766,87 @@ margin-left:8px;
 text-shadow:0px 2px 0px #666666;
 }
 
-.super-list
+.navbar .nav a
 {
+color:#999999;
+}
 
+.navbar .nav a:hover
+{
+background-color:transparent;
+color:#ffffff;
+}
+
+.nav
+{
+display:inline-block;
+padding:4px;
+border:0;
+margin:0;
+overflow:hidden;
+}
+
+.nav li
+{
+float:left;
+list-style:none;
+border-radius:4px;
+overflow:hidden;
+}
+
+.nav a
+{
+display:block;
+height:32px;
+line-height:32px;
+padding:2px 12px;
+color:#0099ff;
+text-decoration:none;
+}
+
+.nav a:hover
+{
+background-color:#cccccc;
+color:#000000;
+}
+
+.nav .divider
+{
+height:4px;
+margin:0 12px;
+border-bottom:1px solid #bbbbbb;
+box-shadow:0px -2px 0px 0px #dddddd inset;
+}
+
+.nav.nav-list .heading
+{
+font-size:1.25em;
+font-weight:bold;
+color:#aaaaaa;
+padding:2px 12px;
+margin-top:12px;
+text-shadow:0px 1px 0px #666666;
+}
+
+.nav.nav-list
+{
+padding:0;
+border:0;
+margin:0;
+display:block;
+border-radius:4px;
+background-color:#eeeeee;
+border:1px solid #dddddd;
+}
+
+.nav.nav-list li
+{
+float:none;
+border-radius:0;
+}
+
+.nav.nav-list a
+{
+height:18px;
+line-height:18px;
 }
