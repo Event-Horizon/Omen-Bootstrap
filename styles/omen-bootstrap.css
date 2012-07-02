@@ -366,7 +366,7 @@ text-align:left;
 {
 border:1px solid #000000;
 background-color:#333333;
-color:#888888;
+color:#999999;
 border-left:8px solid #000000;
 text-shadow:0px 1px 0px #000000;
 }
@@ -396,6 +396,146 @@ background-color:#aaccdd;
 color:#2288bb;
 border-left:8px solid #6699cc;
 text-shadow:0px 1px 0px #000000;
+}
+
+.navbar-space
+{
+padding-bottom:48px;
+}
+
+.navbar
+{
+display:block;
+position:relative;
+min-height:24px;
+max-height:64px;
+border-radius:4px;
+background-color:#000000;
+text-align:left;
+border-top:1px solid #aaaaaa;
+border-left:1px solid #aaaaaa;
+border-right:1px solid #666666;
+border-bottom:1px solid #666666;
+box-shadow:0px -1px 4px 0px #000000,0px -1px 0px 0px #333333,0px 1px 4px 0px #000000,0px 1px 0px 0px #333333,0px 32px 32px 0px #333333 inset;
+color:#ffffff;
+}
+
+.navbar.navbar-stick-top
+{
+position:fixed;
+top:0px;
+left:0px;
+border-radius:0;
+z-index:1;
+border-left:0;
+border-right:0;
+width:100%;
+}
+
+.navbar.navbar-stick-bot
+{
+position:fixed;
+bottom:0px;
+left:0px;
+border-radius:0;
+z-index:1;
+border-left:0;
+border-right:0;
+width:100%;
+}
+
+.navbar .title
+{
+position:absolute;
+top:0;
+left:0;
+margin-left:8px;
+text-shadow:0px 2px 0px #666666;
+}
+
+.navbar .nav a
+{
+color:#999999;
+}
+
+.navbar .nav a:hover
+{
+background-color:transparent;
+color:#ffffff;
+}
+
+.nav
+{
+display:inline-block;
+padding:4px;
+border:0;
+margin:0;
+overflow:hidden;
+}
+
+.nav li
+{
+float:left;
+list-style:none;
+border-radius:4px;
+overflow:hidden;
+}
+
+.nav a
+{
+display:block;
+height:32px;
+line-height:32px;
+padding:2px 12px;
+color:#0099ff;
+text-decoration:none;
+}
+
+.nav a:hover
+{
+background-color:#cccccc;
+color:#000000;
+}
+
+.nav .divider
+{
+height:4px;
+margin:0 12px;
+border-bottom:1px solid #bbbbbb;
+box-shadow:0px -2px 0px 0px #dddddd inset;
+}
+
+.nav.nav-list .heading
+{
+font-size:1.25em;
+font-weight:bold;
+color:#aaaaaa;
+padding:2px 12px;
+margin-top:12px;
+text-shadow:0px 1px 0px #666666;
+}
+
+.nav.nav-list
+{
+padding:0;
+border:0;
+margin:0;
+display:block;
+border-radius:4px;
+background-color:#eeeeee;
+border:1px solid #dddddd;
+}
+
+.nav.nav-list li
+{
+float:none;
+border-radius:0;
+}
+
+.nav.nav-list a
+{
+height:18px;
+line-height:18px;
 }
 
 .col-main
@@ -709,144 +849,4 @@ display:inline-block;
 float:left;
 vertical-align:top;
 text-align:left;
-}
-
-.navbar-space
-{
-padding-bottom:48px;
-}
-
-.navbar
-{
-display:block;
-position:relative;
-min-height:24px;
-max-height:64px;
-border-radius:4px;
-background-color:#000000;
-text-align:left;
-border-top:1px solid #aaaaaa;
-border-left:1px solid #aaaaaa;
-border-right:1px solid #666666;
-border-bottom:1px solid #666666;
-box-shadow:0px -1px 4px 0px #000000,0px -1px 0px 0px #333333,0px 1px 4px 0px #000000,0px 1px 0px 0px #333333,0px 32px 32px 0px #333333 inset;
-color:#ffffff;
-}
-
-.navbar.navbar-stick-top
-{
-position:fixed;
-top:0px;
-left:0px;
-border-radius:0;
-z-index:1;
-border-left:0;
-border-right:0;
-width:100%;
-}
-
-.navbar.navbar-stick-bot
-{
-position:fixed;
-bottom:0px;
-left:0px;
-border-radius:0;
-z-index:1;
-border-left:0;
-border-right:0;
-width:100%;
-}
-
-.navbar .title
-{
-position:absolute;
-top:0;
-left:0;
-margin-left:8px;
-text-shadow:0px 2px 0px #666666;
-}
-
-.navbar .nav a
-{
-color:#999999;
-}
-
-.navbar .nav a:hover
-{
-background-color:transparent;
-color:#ffffff;
-}
-
-.nav
-{
-display:inline-block;
-padding:4px;
-border:0;
-margin:0;
-overflow:hidden;
-}
-
-.nav li
-{
-float:left;
-list-style:none;
-border-radius:4px;
-overflow:hidden;
-}
-
-.nav a
-{
-display:block;
-height:32px;
-line-height:32px;
-padding:2px 12px;
-color:#0099ff;
-text-decoration:none;
-}
-
-.nav a:hover
-{
-background-color:#cccccc;
-color:#000000;
-}
-
-.nav .divider
-{
-height:4px;
-margin:0 12px;
-border-bottom:1px solid #bbbbbb;
-box-shadow:0px -2px 0px 0px #dddddd inset;
-}
-
-.nav.nav-list .heading
-{
-font-size:1.25em;
-font-weight:bold;
-color:#aaaaaa;
-padding:2px 12px;
-margin-top:12px;
-text-shadow:0px 1px 0px #666666;
-}
-
-.nav.nav-list
-{
-padding:0;
-border:0;
-margin:0;
-display:block;
-border-radius:4px;
-background-color:#eeeeee;
-border:1px solid #dddddd;
-}
-
-.nav.nav-list li
-{
-float:none;
-border-radius:0;
-}
-
-.nav.nav-list a
-{
-height:18px;
-line-height:18px;
 }
