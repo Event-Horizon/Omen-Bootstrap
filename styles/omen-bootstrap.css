@@ -551,7 +551,8 @@ text-align:left;
 
 .col1-fill
 {
-width:6.25%;
+width:4.25%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -560,7 +561,8 @@ text-align:left;
 
 .col2-fill
 {
-width:12.5%;
+width:10.5%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -569,7 +571,8 @@ text-align:left;
 
 .col3-fill
 {
-width:18.75%;
+width:16.75%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -578,7 +581,8 @@ text-align:left;
 
 .col4-fill
 {
-width:25%;
+width:23%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -587,7 +591,8 @@ text-align:left;
 
 .col5-fill
 {
-width:31.25%;
+width:29.25%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -596,7 +601,8 @@ text-align:left;
 
 .col6-fill
 {
-width:37.5%;
+width:35.5%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -605,7 +611,8 @@ text-align:left;
 
 .col7-fill
 {
-width:43.75%;
+width:41.75%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -614,7 +621,8 @@ text-align:left;
 
 .col8-fill
 {
-width:50%;
+width:48%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -623,7 +631,8 @@ text-align:left;
 
 .col9-fill
 {
-width:56.25%;
+width:54.25%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -632,7 +641,8 @@ text-align:left;
 
 .col10-fill
 {
-width:62.5%;
+width:60.5%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -641,7 +651,8 @@ text-align:left;
 
 .col11-fill
 {
-width:68.75%;
+width:66.75%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -650,7 +661,8 @@ text-align:left;
 
 .col12-fill
 {
-width:75%;
+width:73%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -659,7 +671,8 @@ text-align:left;
 
 .col13-fill
 {
-width:81.25%;
+width:79.25%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -668,7 +681,8 @@ text-align:left;
 
 .col14-fill
 {
-width:87.5%;
+width:85.5%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -677,7 +691,8 @@ text-align:left;
 
 .col15-fill
 {
-width:93.75%;
+width:91.75%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -686,7 +701,8 @@ text-align:left;
 
 .col16-fill
 {
-width:100%;
+width:98%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -698,7 +714,7 @@ text-align:left;
 padding-bottom:48px;
 }
 
-.nav
+.navbar
 {
 display:block;
 position:relative;
@@ -714,7 +730,7 @@ box-shadow:0px -1px 4px 0px #000000,0px -1px 0px 0px #333333,0px 1px 4px 0px #00
 color:#ffffff;
 }
 
-.nav.nav-stick-top
+.navbar.navbar-stick-top
 {
 position:fixed;
 top:0px;
@@ -726,7 +742,7 @@ border-right:0;
 width:100%;
 }
 
-.nav.nav-stick-bot
+.navbar.navbar-stick-bot
 {
 position:fixed;
 bottom:0px;
@@ -738,7 +754,7 @@ border-right:0;
 width:100%;
 }
 
-.nav .title
+.navbar .title
 {
 position:absolute;
 top:0;
