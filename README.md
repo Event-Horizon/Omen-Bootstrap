@@ -32,6 +32,7 @@ Planned | In Progress  | Complete
 Table of current Classes and Class Extensions:
 
 > Replace any # symbols with 1-16
+>
 > If an extension is preceded by @ then it means it is placed on an element thats surrounded by the class.
 > 
 > Example: `div with .col-main should never share the class of .col#, but should have divs in it with .col#`
