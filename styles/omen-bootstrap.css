@@ -13,6 +13,32 @@ margin:0;
 font-family:Helvetica,Arial,sans-serif;
 }
 /*****************************/
+.omen_logo_large
+{
+display:inline-block;
+width:320px;
+height:320px;
+margin:0 auto;
+}
+
+.omen_logo_small
+{
+display:inline-block;
+width:64px;
+height:64px;
+margin:0 auto;
+}
+
+.push_left
+{
+float:left;
+}
+
+.push_right
+{
+float:right;
+}
+
 .head1
 {
 font-size:3em;
@@ -400,7 +426,7 @@ text-shadow:0px 1px 0px #000000;
 
 .navbar-space
 {
-padding-bottom:48px;
+padding-bottom:64px;
 }
 
 .navbar
