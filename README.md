@@ -1,6 +1,8 @@
 #Omen Bootstrap#
 ***
 
+![Omen Logo](https://github.com/Event-Horizon/Omen-Bootstrap/raw/master/styles/omen-med.png)
+
 ##Version 0.36.0##
 
 ###Versioning###
