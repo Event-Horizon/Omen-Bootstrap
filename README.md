@@ -9,9 +9,16 @@
 [Major].[Minor].[Patch]
 
 ##Description##
+
 This is my personal Bootstrap project. 
 
-I intend to create a simpler form of the Twitter Bootstrap. 
+My intention is to create a simpler form of the Twitter Bootstrap.
+
+Included resources are JQUERY.JS (1.7.2) and BOX-SHADOW.JS. 
+
+These resources may be removed at a future date if not implimented.
+
+##Progress##
 
 Planned | In Progress  | Complete
 -------:|:------------:|:-------
@@ -19,8 +26,6 @@ Planned | In Progress  | Complete
         | Buttons      | Columns
         | Nav          | Notices
         |              | Navbar
-
-Included resources are JQUERY.JS (1.7.2) and BOX-SHADOW.JS.
 
 ##How To##
 
@@ -41,6 +46,10 @@ Table of current Classes and Class Extensions:
  .navbar-space | N/A                                                     | N/A                  | Div,top or bot page, match navbar
  .nav          | .nav-list                                               | N/A                  | UL with LI around Anchors
  .notice       | .notice-dark, .notice-red, .notice-blue, .notice-green  | @.heading, @.divider | Div around content
+
+##Examples##
+
+Download [Omen-Bootstrap](https://github.com/Event-Horizon/Omen-Bootstrap/downloads) and open general-examples.html
 
 ##License##
 
