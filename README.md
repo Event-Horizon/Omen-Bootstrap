@@ -1,7 +1,7 @@
 #Omen Bootstrap#
 ***
 
-##Version 0.28.0##
+##Version 0.36.0##
 
 ###Versioning###
 [Major].[Minor].[Patch]
