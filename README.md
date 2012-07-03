@@ -30,17 +30,17 @@ Table of current Classes and Class Extensions:
 > 
 > Example: `div with .col-main should never share the class of .col#, but should have divs in it with .col#`
 
- Classes       | Extensions                                              | Extensions+
---------------:|:-------------------------------------------------------:|:------------
- .b            | .b-dark, .b-red, .b-blue                                | N/A
- .b-sec        | N/A                                                     | N/A
- .plat         | .plat-inset                                             | N/A
- .col-main     | @.col#                                                  | N/A
- .col#-fill    | N/A                                                     | N/A
- .navbar       | .navbar-stick-top, .navbar-stick-bot                    | N/A
- .navbar-space | N/A                                                     | N/A
- .nav          | .nav-list                                               | N/A
- .notice       | .notice-dark, .notice-red, .notice-blue, .notice-green  | @.heading, @.divider
+ Classes       | Extensions                                              | Extensions+          | Usage
+--------------:|:-------------------------------------------------------:|:--------------------:|:--------
+ .b            | .b-dark, .b-red, .b-blue                                | N/A                  | Anchors,Buttons
+ .b-sec        | N/A                                                     | N/A                  | Div around Anchors
+ .plat         | .plat-inset                                             | N/A                  | Div around content
+ .col-main     | @.col#                                                  | N/A                  | Div around @.col# Divs
+ .col#-fill    | N/A                                                     | N/A                  | Div around content
+ .navbar       | .navbar-stick-top, .navbar-stick-bot                    | N/A                  | Div around Navs
+ .navbar-space | N/A                                                     | N/A                  | Div,top or bot page, match navbar
+ .nav          | .nav-list                                               | N/A                  | UL with LI around Anchors
+ .notice       | .notice-dark, .notice-red, .notice-blue, .notice-green  | @.heading, @.divider | Div around content
 
 ##License##
 
