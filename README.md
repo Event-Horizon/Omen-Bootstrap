@@ -51,7 +51,7 @@ Table of current Classes and Class Extensions:
 
 ##Examples##
 
-Download [Omen-Bootstrap](https://github.com/Event-Horizon/Omen-Bootstrap/downloads) and open general-examples.html
+Visit [Omen-Bootstrap](http://event-horizon.github.com/Omen-Bootstrap/general-example.html)
 
 ##License##
 
