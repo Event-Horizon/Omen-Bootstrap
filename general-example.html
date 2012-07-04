@@ -14,37 +14,36 @@
 <!--------------------------
 --Scripts/Styles
 -------------------------->
-<script type="text/javascript" src="../scripts/jquery.js"></script>
-<script type="text/javascript" src="../scripts/boxshadow.js"></script>
-<link rel="stylesheet" type="text/css" href="../styles/omen-bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="./stylesheets/omen-bootstrap.css"/>
 <!--------------------------
 --End Scripts/Styles
 -------------------------->
 </head>
 <body>
-
-<div class="nav-top-space"></div>
 <a name="top"></a>
-<div class="nav nav-stick-top">
-<span class="title head2">Examples</span>
+
+<div class="navbar-space"></div>
+<div class="navbar navbar-stick-top">
+<img src="omen.png" class="omen_logo_small push_left"></img>
+<span class="head1 push_left">Examples</span>
 <div class="col-main">
-<div class="col12">
-<div class="b-sec">
-<a class="b b-dark" href="#buttons">Buttons</a>
-<a class="b b-dark" href="#platform">Platforms</a>
-<a class="b b-dark" href="#notice">Notices</a>
-<a class="b b-dark" href="#columns">Columns</a>
-<a class="b b-dark" href="#fill-columns">Fill Columns</a>
-<a class="b b-dark" href="#nav">Nav Bar</a>
-</div>
+<div class="col16">
+<ul class="nav">
+<li><a href="#top">Back to Top</a></li>
+<li><a href="#buttons">Buttons</a></li>
+<li><a href="#platform">Platforms</a></li>
+<li><a href="#notice">Notices</a></li>
+<li><a href="#columns">Columns</a></li>
+<li><a href="#fill-columns">Fill Columns</a></li>
+<li><a href="#navbar">Navbar</a></li>
+</ul>
 </div>
 </div>
 </div>
 
 <div class="col-main">
 
-
-
+<img src="omen.png" class="omen_logo_large"></img>
 
 <h2>Button/Dark Button</h2>
 <a name="buttons"></a>
@@ -242,30 +241,66 @@ This is a notice!
 </div>
 
 <div class="col-main">
-<h2>This is the navbar</h2>
+<h2>This is the Navbar</h2>
 </div>
 <div class="col16">
 <div class="notice">
-<h4>Using .nav,.nav .nav-stick-top, and .nav .nav-stick-bot</h4>
-<h4>It also has a sticky mode for top and bottom of screen.</h4>
+<h4>Using .navbar,.navbar .navbar-stick-top, and .navbar .navbar-stick-bot</h4>
+<h4>It has a sticky mode for top and bottom of screen.</h4>
+<h4>When stuck to top or bottom using .navbar-space on a div at top or bottom of page provides proper padding.</h4>
 </div>
 </div>
 
 <div class="col8">
-<div class="nav">
-<a name="nav"></a>
+<div class="navbar">
+<a name="navbar"></a>
 <div class="col2">
 </div>
 <div class="col4">
-<div class="b-sec">
-<a class="b b-dark" href="#">Example</a>
-<a class="b b-dark" href="#">Example</a>
+<ul class="nav">
+<li><a href="">Example</a></li>
+<li><a href="">Example</a></li>
+</ul>
+</div>
+<div class="col2">
 </div>
 </div>
 </div>
 
-<div class="col2">
+<h2>This is a Nav</h2>
+<div class="col16">
+<div class="notice">
+<h4>Using .nav, .nav .nav-list,.nav .nav-list .divider,.nav .nav-list .heading</h4>
 </div>
+</div>
+
+<div class="col16">
+
+<ul class="nav">
+<li><a href="">Example</a></li>
+<li><a href="">Example</a></li>
+<li><a href="">Example</a></li>
+<li><a href="">Example</a></li>
+<li><a href="">Example</a></li>
+</ul>
+
+</div>
+
+<div class="col16">
+
+<ul class="nav nav-list">
+<li class="heading">Example</li>
+<li><a href="">Example</a></li>
+<li><a href="">Example</a></li>
+<li><a href="">Example</a></li>
+<li><a href="">Example</a></li>
+<li class="heading">Example</li>
+<li><a href="">Example</a></li>
+<li><a href="">Example</a></li>
+<li><a href="">Example</a></li>
+<li class="divider"><li>
+<li><a href="">Example</a></li>
+</ul>
 
 </div>
 
