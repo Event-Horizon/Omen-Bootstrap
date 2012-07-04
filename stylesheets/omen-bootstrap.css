@@ -13,6 +13,32 @@ margin:0;
 font-family:Helvetica,Arial,sans-serif;
 }
 /*****************************/
+.omen_logo_large
+{
+display:inline-block;
+width:320px;
+height:320px;
+margin:0 auto;
+}
+
+.omen_logo_small
+{
+display:inline-block;
+width:64px;
+height:64px;
+margin:0 auto;
+}
+
+.push_left
+{
+float:left;
+}
+
+.push_right
+{
+float:right;
+}
+
 .head1
 {
 font-size:3em;
@@ -107,6 +133,7 @@ box-shadow:0px 2px 6px 0px #000000 inset;
 height:16px;
 font-size:12px;
 line-height:16px;
+padding:2px 8px;
 }
 
 .b.b-large
@@ -114,6 +141,7 @@ line-height:16px;
 height:48px;
 font-size:24px;
 line-height:48px;
+padding:2px 24px;
 }
 
 .b.b-dark
@@ -364,7 +392,7 @@ text-align:left;
 {
 border:1px solid #000000;
 background-color:#333333;
-color:#888888;
+color:#999999;
 border-left:8px solid #000000;
 text-shadow:0px 1px 0px #000000;
 }
@@ -394,6 +422,147 @@ background-color:#aaccdd;
 color:#2288bb;
 border-left:8px solid #6699cc;
 text-shadow:0px 1px 0px #000000;
+}
+
+.navbar-space
+{
+padding-bottom:64px;
+}
+
+.navbar
+{
+display:block;
+position:relative;
+min-height:24px;
+max-height:64px;
+border-radius:4px;
+background-color:#000000;
+text-align:left;
+border-top:1px solid #aaaaaa;
+border-left:1px solid #aaaaaa;
+border-right:1px solid #666666;
+border-bottom:1px solid #666666;
+box-shadow:0px -1px 4px 0px #000000,0px -1px 0px 0px #333333,0px 1px 4px 0px #000000,0px 1px 0px 0px #333333,0px 32px 32px 0px #333333 inset;
+color:#ffffff;
+overflow:hidden;
+}
+
+.navbar.navbar-stick-top
+{
+position:fixed;
+top:0px;
+left:0px;
+border-radius:0;
+z-index:1;
+border-left:0;
+border-right:0;
+width:100%;
+}
+
+.navbar.navbar-stick-bot
+{
+position:fixed;
+bottom:0px;
+left:0px;
+border-radius:0;
+z-index:1;
+border-left:0;
+border-right:0;
+width:100%;
+}
+
+.navbar .title
+{
+position:absolute;
+top:0;
+left:0;
+margin-left:8px;
+text-shadow:0px 2px 0px #666666;
+}
+
+.navbar .nav a
+{
+color:#999999;
+}
+
+.navbar .nav a:hover
+{
+background-color:transparent;
+color:#ffffff;
+}
+
+.nav
+{
+display:inline-block;
+padding:4px;
+border:0;
+margin:0;
+overflow:hidden;
+}
+
+.nav li
+{
+float:left;
+list-style:none;
+border-radius:4px;
+overflow:hidden;
+}
+
+.nav a
+{
+display:block;
+height:32px;
+line-height:32px;
+padding:2px 12px;
+color:#0099ff;
+text-decoration:none;
+}
+
+.nav a:hover
+{
+background-color:#cccccc;
+color:#000000;
+}
+
+.nav .divider
+{
+height:4px;
+margin:0 12px;
+border-bottom:1px solid #bbbbbb;
+box-shadow:0px -2px 0px 0px #dddddd inset;
+}
+
+.nav.nav-list .heading
+{
+font-size:1.25em;
+font-weight:bold;
+color:#aaaaaa;
+padding:2px 12px;
+margin-top:12px;
+text-shadow:0px 1px 0px #666666;
+}
+
+.nav.nav-list
+{
+padding:0;
+border:0;
+margin:0;
+display:block;
+border-radius:4px;
+background-color:#eeeeee;
+border:1px solid #dddddd;
+}
+
+.nav.nav-list li
+{
+float:none;
+border-radius:0;
+}
+
+.nav.nav-list a
+{
+height:18px;
+line-height:18px;
 }
 
 .col-main
@@ -551,7 +720,8 @@ text-align:left;
 
 .col1-fill
 {
-width:6.25%;
+width:4.25%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -560,7 +730,8 @@ text-align:left;
 
 .col2-fill
 {
-width:12.5%;
+width:10.5%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -569,7 +740,8 @@ text-align:left;
 
 .col3-fill
 {
-width:18.75%;
+width:16.75%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -578,7 +750,8 @@ text-align:left;
 
 .col4-fill
 {
-width:25%;
+width:23%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -587,7 +760,8 @@ text-align:left;
 
 .col5-fill
 {
-width:31.25%;
+width:29.25%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -596,7 +770,8 @@ text-align:left;
 
 .col6-fill
 {
-width:37.5%;
+width:35.5%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -605,7 +780,8 @@ text-align:left;
 
 .col7-fill
 {
-width:43.75%;
+width:41.75%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -614,7 +790,8 @@ text-align:left;
 
 .col8-fill
 {
-width:50%;
+width:48%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -623,7 +800,8 @@ text-align:left;
 
 .col9-fill
 {
-width:56.25%;
+width:54.25%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -632,7 +810,8 @@ text-align:left;
 
 .col10-fill
 {
-width:62.5%;
+width:60.5%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -641,7 +820,8 @@ text-align:left;
 
 .col11-fill
 {
-width:68.75%;
+width:66.75%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -650,7 +830,8 @@ text-align:left;
 
 .col12-fill
 {
-width:75%;
+width:73%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -659,7 +840,8 @@ text-align:left;
 
 .col13-fill
 {
-width:81.25%;
+width:79.25%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -668,7 +850,8 @@ text-align:left;
 
 .col14-fill
 {
-width:87.5%;
+width:85.5%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -677,7 +860,8 @@ text-align:left;
 
 .col15-fill
 {
-width:93.75%;
+width:91.75%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
@@ -686,68 +870,10 @@ text-align:left;
 
 .col16-fill
 {
-width:100%;
+width:98%;
+margin:1%;
 display:inline-block;
 float:left;
 vertical-align:top;
 text-align:left;
-}
-
-.nav-top-space
-{
-padding-bottom:48px;
-}
-
-.nav
-{
-display:block;
-position:relative;
-height:48px;
-border-radius:4px;
-background-color:#000000;
-text-align:left;
-border-top:1px solid #aaaaaa;
-border-left:1px solid #aaaaaa;
-border-right:1px solid #666666;
-border-bottom:1px solid #666666;
-box-shadow:0px -1px 4px 0px #000000,0px -1px 0px 0px #333333,0px 1px 4px 0px #000000,0px 1px 0px 0px #333333,0px 32px 32px 0px #333333 inset;
-color:#ffffff;
-}
-
-.nav.nav-stick-top
-{
-position:fixed;
-top:0px;
-left:0px;
-border-radius:0;
-z-index:1;
-border-left:0;
-border-right:0;
-width:100%;
-}
-
-.nav.nav-stick-bot
-{
-position:fixed;
-bottom:0px;
-left:0px;
-border-radius:0;
-z-index:1;
-border-left:0;
-border-right:0;
-width:100%;
-}
-
-.nav .title
-{
-position:absolute;
-top:0;
-left:0;
-margin-left:8px;
-text-shadow:0px 2px 0px #666666;
-}
-
-.super-list
-{
-
 }

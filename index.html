@@ -14,14 +14,16 @@
 <body>
 
 <!-- HEADER -->
-<div class="nav-top-space"></div>
-<div class="nav nav-stick-top">
-<span class="title head2" id="project_title">Omen-Bootstrap</span>
+<div class="navbar-space"></div>
+<div class="navbar navbar-stick-top">
+<img class="omen_logo_small push_left" src="omen.png"></img><span class="push_left head2" id="project_title">Omen-Bootstrap</span>
 <div class="col-main">
-<div class="col8">
-<a class="b b-dark" href="https://github.com/Event-Horizon/Omen-Bootstrap">View on GitHub</a>
-<a class="b b-dark" href="https://github.com/Event-Horizon/Omen-Bootstrap/zipball/master">Zipball</a>
-<a class="b b-dark" href="https://github.com/Event-Horizon/Omen-Bootstrap/tarball/master">Tarball</a>
+<div class="col11">
+<ul class="nav">
+<li><a href="https://github.com/Event-Horizon/Omen-Bootstrap">View on GitHub</a></li>
+<li><a href="https://github.com/Event-Horizon/Omen-Bootstrap/zipball/master">Zipball</a></li>
+<li><a href="https://github.com/Event-Horizon/Omen-Bootstrap/tarball/master">Tarball</a></li>
+</ul>
 </div>
 </div>
 </div>
@@ -30,7 +32,9 @@
 <div class="col-main">
 <h1>Omen Bootstrap</h1>
 
-<h2>Version 0.28.0</h2>
+<img class="omen_logo_large" src="omen.png"></img>
+
+<h2>Version 0.36.0</h2>
 <div class="notice">
 <h3>Versioning</h3>
 <p>[Major].[Minor].[Patch]</p>
@@ -122,14 +126,16 @@
 </ul>
 </li>
 <li>
-<strong>.nav</strong>
+<strong>.navbar</strong>
 
 <ul>
 <li>for divs</li>
 <li>
-<strong>.nav .nav-stick-top</strong> to stick to top of window</li>
+<strong>.navbar .navbar-stick-top</strong> to stick to top of window</li>
 <li>
-<strong>.nav .nav-stick-bot</strong> to stick to bottom of window</li>
+<strong>.navbar .navbar-stick-bot</strong> to stick to bottom of window</li>
+<li>
+<strong>.navbar-space</strong> to space page for navbar</li>
 </ul>
 </li>
 <li>
@@ -143,6 +149,19 @@
 <li><strong>.notice .notice-green</strong></li>
 </ul>
 </li>
+<li>
+<strong>.nav</strong> is nav
+
+<ul>
+<li>for ul</li>
+<li>
+<strong>.nav .nav-list</strong> is list style navigation</li>
+<li>
+<strong>.nav .nav-list .heading</strong> is heading for nav list</li>
+<li>
+<strong>.nav .nav-list .divider</strong> is divider for nav list</li>
+</ul>
+</li>
 </ul>
 </div>
 
@@ -150,12 +169,14 @@
 <div class="notice">
 <p>Omen-Bootstrap by Event-Horizon is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</p>
 </div>
-</div>
 
 <!-- FOOTER  -->
-<div class="nav">
-<div class="col8">
-Omen-Bootstrap maintained by <a class="b" href="https://github.com/Event-Horizon">Event-Horizon</a>
+<div class="navbar">
+<div class="col-main">
+<div class="col10">
+Omen-Bootstrap maintained by<a class="b" href="https://github.com/Event-Horizon">Event-Horizon</a>
+</div>
+</div>
 </div>
 </div>
 
