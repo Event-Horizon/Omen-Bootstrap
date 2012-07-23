@@ -13,6 +13,8 @@ margin:0;
 font-family:Helvetica,Arial,sans-serif;
 }
 /*****************************/
+
+/* Logo Stuff */
 .omen_logo_large
 {
 display:inline-block;
@@ -28,7 +30,9 @@ width:64px;
 height:64px;
 margin:0 auto;
 }
+/*****************************/
 
+/* General Formatting */
 .push_left
 {
 float:left;
@@ -56,7 +60,9 @@ font-weight:bold;
 font-size:1.25em;
 font-weight:bold;
 }
+/*****************************/
 
+/* Button Formatting */
 .b
 {
 display:inline-block;
@@ -291,7 +297,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6cfe8', end
 color:#9999ff!important;
 box-shadow:0px 2px 6px 0px #000000 inset;
 }
+/*****************************/
 
+/* Button Section formatting */
 .b-sec
 {
 display:inline-block;
@@ -352,10 +360,12 @@ margin-right:4px;
 border-radius:0px 4px 4px 0px;
 border-right:1px solid #000000;
 }
+/*****************************/
 
+/* Platform Formatting */
 .plat
 {
-background-color:#eeeeee;
+background-color:#f6f6f6;
 border-radius:4px;
 border-top:1px solid #ffffff;
 border-left:1px solid #ffffff;
@@ -374,7 +384,9 @@ text-align:left;
 box-shadow:2px 2px 2px 1px #999999 inset;
 border-bottom:1px solid #aaaaaa;
 }
+/*****************************/
 
+/* Notice Formatting */
 .notice
 {
 margin:16px auto;
@@ -423,7 +435,9 @@ color:#2288bb;
 border-left:8px solid #6699cc;
 text-shadow:0px 1px 0px #000000;
 }
+/*****************************/
 
+/* Navbar Formatting */
 .navbar-space
 {
 padding-bottom:64px;
@@ -490,7 +504,9 @@ color:#999999;
 background-color:transparent;
 color:#ffffff;
 }
+/*****************************/
 
+/* Nav Formatting */
 .nav
 {
 display:inline-block;
@@ -505,6 +521,7 @@ overflow:hidden;
 float:left;
 list-style:none;
 border-radius:4px;
+
 overflow:hidden;
 }
 
@@ -550,7 +567,7 @@ margin:0;
 display:block;
 border-radius:4px;
 background-color:#eeeeee;
-border:1px solid #dddddd;
+border:1px solid #cccccc;
 }
 
 .nav.nav-list li
@@ -564,7 +581,9 @@ border-radius:0;
 height:18px;
 line-height:18px;
 }
+/*****************************/
 
+/* Column Formatting */
 .col-main
 {
 display:block;
@@ -717,7 +736,9 @@ margin:4px;
 vertical-align:top;
 text-align:left;
 }
+/*****************************/
 
+/* Column Fill Formatting */
 .col1-fill
 {
 width:4.25%;
@@ -877,3 +898,4 @@ float:left;
 vertical-align:top;
 text-align:left;
 }
+/*****************************/
